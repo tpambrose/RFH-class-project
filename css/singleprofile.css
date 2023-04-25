@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    font-family: Poppins, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.container{
+    width:100%;
+    height: 65px;
+    background: linear-gradient(9deg, rgba(255,123,0,1) 9%, rgba(254,91,37,0.969625350140056) 35%, rgba(244,139,0,1) 100%);
+}
+.nav_container{
+    width: 90%;
+    height: 508px;
+    margin: auto;
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -0.48rem;
+    padding-top: 17px;
+}
+
+.theme-btn span{
+    color: #fff;
+}
+.nav{
+    margin-left: 180px;
+}
+.nav .logo{
+    float:left;
+    margin-top: -9px;
+}
+.nav a{
+    color: rgb(255, 253, 253);
+    margin-right: 4rem;
+
+}
+
+.nav-content{
+    margin: 5rem auto -4rem auto;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: row;
+}
+.img-container{
+    width: 620px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 0% 50% 0% 0%;
+}
+.nav-content img{
+    width: 292px;
+    height: 292px;
+    object-fit: cover;
+    border-radius: 200%;
+}
+.nav-content h1{
+    font-size: 48px;
+
+    margin-left: 2.2rem;
+    color: #F29500;
+    text-align: left;
+
+}
+.nav-content p{
+    font-size: 16px;
+    width:90%;
+    margin: 0rem auto 3rem auto;
+    color: #000000;
+}
+/*//////////////////////////////////////////*/
+.basic-info {
+    text-align: -webkit-right;
+}
+
+.info{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: 30%;
+    padding: 10px;
+}
+
+.divider
+{
+    display: block;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top: -10px;
+}
+
+.info p{
+    width: fit-content;
+    padding: 16px 40px 16px 40px;
+    background: linear-gradient(9deg, rgba(255,123,0,1) 9%, rgba(254,91,37,0.969625350140056) 35%, rgba(244,139,0,1) 100%);
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    justify-content: space-between;
+    width: 30%;
+    float: right;
+}
+.lang{
+    width: 100px;
+}
+.info p{
+    width: max-content;
+    color: white;
+    text-align: center;
+}
+
+.info span{
+    width: fit-content;
+}
+
+.bio-2{
+
+}
+.bio-1{
+    text-align: start;
+}
+.cert img {
+    height: 90px;
+    width: 170px;
+    border-radius: 0px;
+}
+
+.bio{
+    color: rgb(58, 29, 2);
+}
+
+.more-info{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin-left: 2rem;
+    margin-top: -2rem;
+}
+
+img.slider{
+    height: 218px;
+    width: 313px;
+    position: relative;
+    z-index: 0;
+    top: -30px;
+}
+
+input.btn-blue {
+    border-radius: 35px;
+    width: 20px;
+}
+input.btn-dark {
+    border-radius: 35px;
+    width: 20px;
+}

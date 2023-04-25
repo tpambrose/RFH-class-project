@@ -1,0 +1,29 @@
+.container{
+    background: rgb(5,38,122);
+    background: linear-gradient(135deg, rgba(5,38,122,1) 0%, rgba(1,47,98,1) 58%, rgba(3,63,101,1) 100%);
+}
+
+.nav-content h1
+{
+    color: #06749f;
+}
+
+.info p
+{
+    background: rgb(5,38,122);
+    background: linear-gradient(135deg, rgba(5,38,122,1) 0%, rgba(1,47,98,1) 58%, rgba(3,63,101,1) 100%);
+}
+
+.head .field
+{
+    color : #0279bf;
+}
+.msg-container2 h2 {
+    color: #0279bf;
+}
+
+input[type=submit]
+{
+    background: rgb(5,38,122);
+    background: linear-gradient(135deg, rgba(5,38,122,1) 0%, rgba(1,47,98,1) 58%, rgba(3,63,101,1) 100%);
+}

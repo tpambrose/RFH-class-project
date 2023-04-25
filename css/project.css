@@ -1,0 +1,66 @@
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 56px;
+    margin-bottom: 48px;
+}
+.project{
+    width: 313px;
+    height: fit-content;
+    margin-right: 3rem;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 3px 8px 1px #747474;
+    border-radius: 7px;
+    margin-bottom: 88px;
+}
+
+.head{
+    background-size: cover;
+    height: 218px;
+    width: 313px;
+    
+}
+
+.head p{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.head{
+    background-image: url("../images/placeholder.png");
+
+}
+
+.head p{
+    font-size: 16px;
+}
+
+.head .field{
+    width: 160px;
+    height: 30px;
+    border-radius: 0px 4px 0px 4px;
+    background-color: #ffffffe8;
+    font-size: 16px;
+    color: #FE8E1E;
+    float: left;
+}
+
+.head img{
+    width: 18px;
+    height: 14px;
+}
+
+
+.head .slider {
+    height: 218px;
+    width: 313px;
+    position: relative;
+    z-index: 0;
+    top: -30px;
+}

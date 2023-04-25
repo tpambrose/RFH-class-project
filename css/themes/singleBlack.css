@@ -1,0 +1,86 @@
+body{
+    background-color: #121212;
+    color: aliceblue;
+}
+
+.container{
+    background: #121212;
+}
+
+.nav-content h1
+{
+    color: #06749f;
+}
+
+.basic-info h1{
+    color: aliceblue;
+}
+
+.basic-info p{
+    color: #dcdada;
+}
+
+.divider
+{
+    position: static;
+    display: block;
+    width: 20%;
+    margin-top: 24px;
+    height: 6px;
+    border-radius: 76px;
+    border: none;
+    background: rgb(5,38,122);
+    background: linear-gradient(315deg, rgb(0 158 255) 0%, rgb(3 130 214) 74%) rgb(5, 38, 122);
+}
+
+.info p
+{
+    color: white;
+    background: rgb(5,38,122);
+    background: linear-gradient(315deg, rgb(0 158 255) 0%, rgb(3 130 214) 74%) rgb(5, 38, 122);
+}
+
+.head .field
+{
+    color : #0279bf;
+}
+.msg-container2 h2 {
+    color: #e1e2e3;
+}
+
+input[type=submit]
+{
+    background: rgb(5,38,122);
+    background: linear-gradient(315deg, rgb(0 158 255) 0%, rgb(3 130 214) 74%) rgb(5, 38, 122);
+}
+
+.img-container{
+    background-color: #121212;
+}
+input[type=text], input[type=email]
+{
+    width: 90%;
+    background-color: #121212;
+    border: none;
+    border-bottom: 1px solid #767676;
+    border-radius:0px ;
+    /* border: 2px solid #272727; */
+    /* border-radius: 16px 0px 16px 16px; */
+}
+
+input[type=text]:focus, input[type=email]:focus{
+    outline: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(238, 238, 238);
+    opacity: 1; 
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(238, 238, 238);;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(238, 238, 238);;
+  }

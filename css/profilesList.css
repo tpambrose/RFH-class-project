@@ -1,0 +1,97 @@
+.profiles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 56px;
+    max-width: 1440px;
+    gap:2%;
+}
+.profile{
+    width: 313px;
+    height: 396px;
+    margin-right: 3rem;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 3px 8px 1px #747474;
+    border-radius: 7px;
+}
+
+.head{
+    background-size: cover;
+    height: 218px;
+    width: 313px;
+    
+}
+
+.p1 .head{
+    background-image: url("../images/OIP\ \(1\).jpg");
+
+}
+.p2 .head{
+    background-image: url("../images/R\ \(3\).jpg");
+    
+}
+.p3 .head{
+    background-image: url("../images/R\ \(2\).jpg");
+    
+}
+.p4 .head{
+    background-image: url("../images/R.jpg");
+    
+}
+.head p{
+    font-size: 16px;
+}
+
+.head .field{
+    width: 160px;
+    height: 30px;
+    border-radius: 0px 4px 0px 4px;
+    background-color: #ffffffe8;
+    font-size: 16px;
+    color: #FE8E1E;
+    float: left;
+}
+
+.head p{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.head img{
+    width: 18px;
+    height: 14px;
+}
+.head .rating{
+    width: 52px;
+    height: 30px;
+    border-radius: 4px 0px 4px 0px;
+    background-color: #ffffffe8;
+    font-size: 16px;
+    color: #432101;
+    float: right;
+}
+.info p{
+    color: #432001;
+    font-size: 16px;
+}
+.info h6 {
+    color: #F29500;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    margin-top: 20px;
+}
+.info button{
+    border: 1px #fff;
+    border-radius: 32px;
+    margin: 0rem 0.5rem;
+    color: #ffffff;
+    padding: 12px 36px;
+    font-size: 15;
+    font-weight: bold;
+    background: linear-gradient(9deg, rgba(255,123,0,1) 9%, rgba(254,91,37,0.969625350140056) 35%, rgba(244,139,0,1) 100%);
+}

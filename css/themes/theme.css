@@ -1,0 +1,29 @@
+.theme-btn button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.689);
+}
+
+.theme-btn {
+    margin-top: -4px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: cursive;
+    text-transform: capitalize;
+    display: -webkit-inline-box;
+}
+
+.btn-orange{
+    background-color: #D36906;
+}
+
+.btn-blue{
+    background-color: #009eff;
+    margin-left: 10px;
+}
+
+.btn-dark{
+    background-color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
